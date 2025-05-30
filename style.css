@@ -1,0 +1,229 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background: gray;
+        color: #720e0e;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #000;
+        padding: 10px 20px;
+    }
+
+    .navbar .logo {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .navbar .links {
+        display: flex;
+        gap: 30px;
+    }
+
+    .navbar .links a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 1px;
+        transition: color o.3s;
+    }
+
+    .navbar .links a:hover {
+        color: #007bff;
+    }
+
+    .navbar .button {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navbar .button button {
+        padding: 8px 15px;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+        color: #000;
+        font-size: 13px;
+    }
+
+    .navbar .button button:hover {
+        background-color: #e323bd;
+        color: #007bff;
+    }
+
+    span h2 {
+        font-style: italic;
+        font-weight: bolder;
+        background-color: #636060;
+        height: auto;
+        width: auto;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section {
+        background: url(bh.gif ) no-repeat center center / cover;
+        text-align: center;
+        color: #fff;
+        padding: 50px 20px;
+        height: 500px;
+        width: auto;
+    }
+
+    .hero-section h1,btn btn-light btn-lg {
+        font-size: 2.5rem;
+        margin: 20px 0;
+        padding-top: 250px;
+        padding-right: 100px;
+        font-style: italic;
+    }
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+
+    .hero-section .cta-buttons {
+        margin: 20px 0;
+    }
+    .h2{
+        background-color: #000;
+        width: auto;
+        height: auto;
+        font-weight: 300;
+    }
+
+    .cta-buttons button {
+        background: rgb(168, 98, 18);
+        color: #c3adad;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+        font-weight: bold;
+        margin: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+
+        padding: 10px 15px;
+        color: rgb(36, 28, 138);
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .learning-overview {
+        background: rgb(74, 75, 74);
+        padding: 5px;
+        text-align: center;
+        color: rgb(217, 203, 203);
+    }
+
+    .learning-overview div {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    .learning-overview div h3 {
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .plans {
+        padding: 20px;
+        text-align: center;
+    }
+    .plans h2{
+        background-color: rgb(196, 202, 202);
+        height: auto;
+        width: auto;
+        font-style: italic;
+    font-weight: bolder;    }
+
+    .plan-card {
+        font-style: italic;
+        display: inline-block;
+        justify-content: space-around;
+        width: 250px;
+        margin: 10px;
+        padding: 20px;
+        background: gray;
+        color: rgb(255, 255, 255);
+        border: 1px solid #ddd;
+        border-radius: 8px;
+    }
+
+    .plan-card h3 {
+        margin-bottom: 10px;
+    }
+
+    .plan-card ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .plan-card ul li {
+        margin: 5px 0;
+    }
+
+    .plan-card button {
+        padding: 10px 15px;
+        background: #1fdd1f;
+        color: rgb(84, 98, 88);
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .plan-card button:hover {
+        background-color: rgb(92, 57, 62);
+        color: #007bff;
+    }
+
+    footer {
+        background: gray;
+        color: rgb(86, 6, 6);
+        text-align: center;
+        padding: 10px;
+    }
+
+    p {
+        font-size: x-large;
+        font-weight: bold;
+        font-style: italic;
+    }
+    .cta-buttons:hover {
+        color: #007bff;
+        background-color: #c3adad;
+        width: auto;
+        height: auto;
+    }
+    .hero{
+        background-image:url(vir.png) no-repeat center center / cover;
+    }
+    .mb-4{
+        font-style: italic;
+        font-weight: bolder;
+    }
+    footer{
+        background-color: #636060;
+        
+
+    }
+    h5{
+        font-weight: bolder;
+        font-style: italic;
+    }
+    .card-text{
+font-style: italic;
+word-spacing: normal;
+    }

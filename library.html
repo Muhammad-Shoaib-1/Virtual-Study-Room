@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Library - Virtual Study Room</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="#" class="text-xl font-bold text-blue-600">Virtual Study Room</a>
+      <div class="space-x-6 hidden md:flex">
+        <a href="index.html" class="text-gray-600 hover:text-blue-600">Home</a>
+        <a href="about.html" class="text-gray-600 hover:text-blue-600">About</a>
+        <a href="resources.html" class="text-gray-600 hover:text-blue-600">Resources</a>
+        <a href="library.html" class="text-gray-600 hover:text-blue-600 font-semibold">Library</a>
+        <a href="apply.html" class="text-gray-600 hover:text-blue-600">Apply Now</a>
+        <a href="contact.html" class="text-gray-600 hover:text-blue-600">Contact</a>
+      </div>
+      <div class="space-x-2">
+        <button class="px-4 py-1 border border-blue-600 text-blue-600 rounded hover:bg-blue-50">Log in</button>
+        <button class="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700">Sign Up</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="max-w-7xl mx-auto px-4 py-10">
+    <h1 class="text-3xl font-bold mb-6 text-center text-blue-600">Library Resources</h1>
+
+    <!-- E-Books -->
+    <h2 class="text-2xl font-semibold mb-4">📘 E-Books</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-10">
+      <div class="bg-white shadow rounded p-4">
+        <img src="images/ebook1.jpg" alt="E-Book" class="w-full h-40 object-cover rounded mb-2">
+        <h3 class="font-medium">Python for Beginners</h3>
+        <a href="ebooks/python_basics.pdf" download class="text-blue-600 hover:underline text-sm">Download PDF</a>
+      </div>
+      <!-- Add more cards -->
+    </div>
+
+    <!-- Past Papers -->
+    <h2 class="text-2xl font-semibold mb-4">📝 Past Papers</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-10">
+      <div class="bg-white shadow rounded p-4">
+        <img src="images/pastpaper.jpg" alt="Past Paper" class="w-full h-40 object-cover rounded mb-2">
+        <h3 class="font-medium">Computer Networks - 2023</h3>
+        <a href="papers/networking2023.pdf" download class="text-blue-600 hover:underline text-sm">Download PDF</a>
+      </div>
+      <!-- Add more cards -->
+    </div>
+
+    <!-- Notes -->
+    <h2 class="text-2xl font-semibold mb-4">📚 Notes</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-10">
+      <div class="bg-white shadow rounded p-4">
+        <img src="images/notes.jpg" alt="Notes" class="w-full h-40 object-cover rounded mb-2">
+        <h3 class="font-medium">DBMS Summary Notes</h3>
+        <a href="notes/dbms_notes.pdf" download class="text-blue-600 hover:underline text-sm">Download PDF</a>
+      </div>
+      <!-- Add more cards -->
+    </div>
+
+    <!-- Video Lectures -->
+    <h2 class="text-2xl font-semibold mb-4">🎥 Video Lectures</h2>
+    <div class="bg-white rounded shadow p-4">
+      <h3 class="text-lg font-medium mb-2">Learn SQL in 1 Hour</h3>
+      <div class="aspect-w-16 aspect-h-9">
+        <iframe class="w-full h-96 rounded" src="https://www.youtube.com/embed/27axs9dO7AE" title="SQL Tutorial"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+  <footer class="bg-white text-center py-4 border-t">
+    <p class="text-gray-600">&copy; 2025 Virtual Study Room. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
